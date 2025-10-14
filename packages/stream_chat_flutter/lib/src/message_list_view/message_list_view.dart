@@ -852,7 +852,6 @@ class _StreamMessageListViewState extends State<StreamMessageListView> {
               reverse: widget.reverse,
               itemPositionListener: _itemPositionListener.itemPositions,
               messages: messages,
-              dateDividerBuilder: widget.dateDividerBuilder,
             ),
           ),
         if (widget.showScrollToBottom)
